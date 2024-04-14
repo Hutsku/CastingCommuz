@@ -1,0 +1,26 @@
+/* ======================= Bouton de navigation ============================= */
+
+.navButton {
+    width: 200px;
+    opacity: 1;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px #00000080 solid;
+
+    font: 400 0.95rem 'Courier New', monospace;
+    text-transform: lowercase;
+}
+.navButton:hover {
+    background-color: #ffffff80;
+}
+.navButton:focus {
+    background-color: white;
+    box-shadow: none;
+}
+.navButton.not-focus {
+    background-color: transparent;
+}
+.navButton.focus {
+    background-color: white;
+    box-shadow: none;
+}
