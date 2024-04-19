@@ -13,32 +13,6 @@
     font-style: normal;
 }
 
-/* style collec 1 & 2
-:root {
-	--main-bg: #fff9e7;
-
-	--a: rgb(185, 157, 46);
-	--a-hover: rgb(126, 106, 27);
-
-	--button1: rgb(222, 188, 54);
-	--button1-hover: rgb(188, 158, 41);
-	--button1-active: rgb(154, 129, 33);
-	--button1-text: white;
-
-	--button2: rgb(180, 180, 180);
-	--button2-hover: rgb(150,150, 150);
-	--button2-active: rgb(130, 130, 130);
-	--button2-text: white;
-
-	--border-focus: rgb(222, 188, 54);
-
-	--navbar-bg: rgb(242, 216, 117);
-	--navbar-text: rgb(0, 0, 0);
-
-	--sticky-bottom: #fff9e7;
-} */
-
-/* style collec 3 */
 :root {
 	--main-bg: white;
 	--table-header: #5c73cc;
@@ -108,12 +82,17 @@ small {
 }
 
 .btn-cart {
-	background-color: var(--button1);
+	background-image: linear-gradient(70deg,#90404d,#bb5968);
+	background-color: rgb(187, 89, 104, 1);
+	background-position-x: -300px;
+	background-repeat: no-repeat;
 	color: var(--button1-text);
-	transition: 0.1s;
+	transition: 0.3s;
 }
 .btn-cart:hover {
-	background-color: var(--button1-hover);
+	background-color: rgb(187, 89, 104, 1);
+	background-position-x: 0px;
+	background-image: linear-gradient(70deg,#90404d,#bb5968);
 	color: var(--button1-text);
 }
 .btn-cart:active {
